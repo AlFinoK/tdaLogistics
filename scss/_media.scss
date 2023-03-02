@@ -1,0 +1,359 @@
+@media (max-width: 1207px) {
+  .greet {
+    padding-left: 15px;
+    max-width: 606px;
+  }
+
+  .service::after {
+    right: 100px;
+    width: 500px;
+    height: 300px;
+    background-size: contain;
+  }
+  .service-top {
+    &__title {
+      font-size: 20px;
+      margin-left: 30px;
+    }
+  }
+  .service-form {
+    display: flex;
+    flex-direction: column;
+    margin-right: 100px;
+    &__name,
+    &__phone {
+      margin-right: 0px;
+      margin-bottom: 20px;
+    }
+    &__btn {
+      font-size: 12px;
+    }
+  }
+
+  .contacts {
+    &__inner {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 100px;
+    }
+  }
+  .contacts-box {
+    margin-bottom: 100px;
+  }
+}
+
+@media (max-width: 940px) {
+  .menu {
+    &__list-item {
+      display: none;
+    }
+  }
+}
+
+@media (max-width: 780px) {
+  .greet {
+    & h1 {
+      font-size: 47px;
+    }
+    & p {
+      font-size: 21px;
+      max-width: 500px;
+    }
+  }
+  .title {
+    font-size: 50px;
+  }
+
+  .about {
+    &__text {
+      font-size: 20px;
+      max-width: 650px;
+    }
+  }
+  .about-content {
+    &__block-bottom {
+      font-size: 14px;
+      max-width: 134px;
+    }
+  }
+  .clock.clock::before {
+    left: 29px;
+  }
+  .world.world::before {
+    left: 29px;
+  }
+  .age.age::before {
+    left: 29px;
+  }
+
+  .service::after {
+    right: 50px;
+    width: 400px;
+    height: 400px;
+    background-size: contain;
+  }
+  .service-top {
+    &__title {
+      font-size: 20px;
+      margin-left: 30px;
+      max-width: 228px;
+    }
+  }
+
+  .service-bottom {
+    margin-left: 40px;
+  }
+
+  .service-list {
+    max-width: 133px;
+    font-size: 14px;
+    &__item::before {
+      top: 0;
+      left: -35px;
+      height: 25px;
+      width: 25px;
+    }
+  }
+}
+
+@media (max-width: 750px) {
+  .social-links {
+    &__tel {
+      display: none;
+    }
+  }
+}
+
+@media (max-width: 615px) {
+  .footer {
+    &__border {
+      border-right: 90px solid #bababa;
+      border-left: 90px solid #bababa;
+    }
+  }
+
+  .service::after {
+    top: -30px;
+    right: 50px;
+    width: 200px;
+    height: 200px;
+  }
+  .service-top {
+    display: flex;
+    flex-direction: column;
+    &__title {
+      font-size: 20px;
+      margin-left: 0px;
+      max-width: 415px;
+      margin-bottom: 50px;
+      text-align: center;
+    }
+  }
+  .service-form {
+    display: flex;
+    flex-direction: column;
+    margin-right: 0px;
+    &__name,
+    &__phone {
+      margin-right: 0px;
+      margin-bottom: 20px;
+    }
+    &__btn {
+      font-size: 12px;
+    }
+  }
+  .service-bottom {
+    margin-left: 40px;
+  }
+  .contacts-map {
+    display: none;
+  }
+
+  .map-adaptive {
+    display: block;
+  }
+}
+
+@media (max-width: 521px) {
+  .header {
+    background-position: left;
+    &__inner {
+      margin-bottom: 50px;
+    }
+  }
+
+  .greet {
+    padding-left: 0;
+    text-align: center;
+    & h1 {
+      font-size: 36px;
+      margin-bottom: 70px;
+    }
+    & p {
+      font-size: 16px;
+    }
+  }
+
+  .title {
+    font-size: 35px;
+  }
+
+  .about {
+    &__text {
+      font-size: 16px;
+      max-width: 600px;
+    }
+  }
+  .about-content {
+    &__block-bottom {
+      font-size: 12px;
+      max-width: 100px;
+    }
+  }
+  .clock.clock::before {
+    margin-bottom: 10px;
+    width: 60px;
+    height: 60px;
+    left: 20px;
+  }
+  .world.world::before {
+    margin-bottom: 10px;
+    width: 60px;
+    height: 60px;
+    left: 20px;
+  }
+  .age.age::before {
+    margin-bottom: 10px;
+    left: 20px;
+    font-size: 52px;
+  }
+}
+
+@media (max-width: 420px) {
+  .title {
+    text-align: start;
+    font-size: 40px;
+  }
+
+  .about {
+    &__text {
+      font-size: 18px;
+      max-width: 450px;
+      text-align: center;
+      margin: 0 0 170px 0;
+    }
+  }
+  .about-content {
+    flex-direction: column;
+    align-items: center;
+
+    &__block-bottom {
+      font-size: 18px;
+      max-width: 150px;
+      margin-bottom: 150px;
+    }
+  }
+  .clock.clock::before {
+    width: 80px;
+    height: 80px;
+    left: 35px;
+    bottom: 100px;
+  }
+  .world.world::before {
+    width: 80px;
+    height: 80px;
+    left: 35px;
+    bottom: 110px;
+  }
+  .age.age::before {
+    left: 35px;
+    font-size: 70px;
+    bottom: 100px;
+  }
+
+  .service::after {
+    top: -150px;
+    right: 60px;
+    width: 300px;
+    height: 300px;
+  }
+
+  .service-list {
+    max-width: 120px;
+    &__item::before {
+      top: 5px;
+      left: -30px;
+      height: 20px;
+      width: 20px;
+    }
+  }
+
+  .service-bottom {
+    margin-left: 25px;
+  }
+
+  .sixth::before {
+    top: 0px;
+  }
+
+  .contacts {
+    &__inner {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 100px;
+    }
+  }
+  .contacts-box {
+    max-width: 296px;
+    font-size: 16px;
+  }
+
+  .fixed-box {
+    display: block;
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    background-color: #327832;
+    &__item {
+      font-size: 18px;
+      color: white;
+      display: block;
+      text-align: center;
+    }
+  }
+}
+
+@media (max-width: 390px) {
+  .service-list {
+    max-width: 88px;
+    font-size: 12px;
+    &__item::before {
+      top: 5px;
+      left: -30px;
+      height: 20px;
+      width: 20px;
+    }
+  }
+  .service::after {
+    right: 10px;
+  }
+
+  .service-bottom {
+    margin-left: 25px;
+  }
+
+  .sixth::before {
+    top: 0px;
+  }
+}
+
+@media (max-width: 320px) {
+  .greet {
+    &__title {
+      font-size: 31px !important;
+    }
+  }
+}
