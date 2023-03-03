@@ -70,7 +70,7 @@
   &__tel {
     margin-right: 20px;
     font-size: 16px;
-    @extend %rubik-700;
+    font-weight: 500;
     cursor: pointer;
     user-select: none;
     &:hover {
@@ -105,10 +105,8 @@
   &__copy {
     margin-bottom: 5px;
     font-size: 11px;
-    @extend %roboto-400;
   }
   &__nav-item {
-    @extend %rubik-500;
     line-height: 24px;
     font-size: 13px;
     margin: 0 10px;
@@ -155,7 +153,7 @@
     color: #fff;
     font-size: 16px;
     text-transform: uppercase;
-    @extend %rubik-700;
+    @extend %quick-700;
     cursor: pointer;
     animation-duration: 1.4s;
     &:hover {
@@ -261,7 +259,6 @@
   flex-direction: column;
   justify-content: center;
   font-size: 24px;
-  @extend %rubik-500;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
   padding: 30px 80px;
   &__title {
@@ -351,7 +348,6 @@
     margin-right: 20px;
     padding: 15px 25px 15px 5px;
     font-size: 16px;
-    @extend %rubik-500;
     color: $def;
     border-bottom: 1px solid $hover;
   }
@@ -359,7 +355,6 @@
     margin-right: 25px;
     padding: 15px 25px 15px 5px;
     font-size: 16px;
-    @extend %rubik-500;
     color: $def;
     border-bottom: 1px solid $hover;
   }

@@ -4,8 +4,8 @@ body {
 }
 
 body {
+  @extend %rubik-400;
   font-size: 14px;
-  @extend %roboto-400;
   color: $def;
   display: flex;
   flex-direction: column;
